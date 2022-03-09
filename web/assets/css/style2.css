@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url(../images/Bookco.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+p{
+    color:#fc3f3f;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.card{
+height: 410px;
+margin-top: auto;
+margin-bottom: auto;
+width: 440px;
+background-color: rgba(0,0,0,0.5) !important;
+border-radius: 30px;
+}
+
+
+.card-header h3{
+color: white;
+text-align: center;
+font-size: 35px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+
+.login_btn{
+color: black;
+background-color: #73c3ff;
+width: 400px;
+border-radius: 15px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: #c2dffc;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
